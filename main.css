@@ -1,0 +1,61 @@
+body{
+    padding-top: 20px;
+    background-image: url(bg.jpg);
+}
+.text_box {
+    padding: 10px;
+    margin: 0;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.text_box:hover {
+    border: 1px solid rgba(135, 135, 135, 0.43);
+    background-color: #f3f3f3;
+}
+.model {
+    margin-left: 23px;
+}
+.product {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.price {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+.color{margin-left: 23px;}
+.mrg-tp{margin-top: 20px;}
+.nav-pills>li>a {
+    border-radius: 0;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.27);
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 19px 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mainh1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+@media only screen and (min-width:360){
+    .price {
+    float: none;
+}
+}
